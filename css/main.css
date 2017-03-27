@@ -1,0 +1,13 @@
+.green-bg {
+	position: relative;
+}
+.green-bg:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 68px;
+	height: 21px;
+	background-color: #7beec7;
+	z-index: -1;
+}
